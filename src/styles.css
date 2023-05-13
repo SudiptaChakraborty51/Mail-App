@@ -1,0 +1,122 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  width: 80%;
+  position: relative;
+  left: 20%;
+}
+
+.header {
+  text-align: center;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+nav {
+  text-align: center;
+  width: 15%;
+  padding: 15px;
+  padding-top: 90px;
+  min-height: 100vh;
+  position: fixed;
+  background-color: #e5e7eb;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  top: 0;
+  left: 0;
+}
+
+.sidebar-navlink {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 15px 10px;
+}
+
+.sidebar-navlink:hover {
+  font-size: 18px;
+}
+
+fieldset {
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+
+legend {
+  font-size: 18px;
+}
+
+label {
+  padding-right: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+.mail-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  margin: 10px 0;
+}
+
+.mail-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.mail-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mail-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.mail-buttons button {
+  padding: 0 10px;
+}
+
+.navlink {
+  text-decoration: none;
+  color: blue;
+}
+
+@media (max-width: 700px) {
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    position: fixed;
+    min-height: 0;
+    bottom: 0;
+    padding: 10px;
+    z-index: 1;
+    background-color: #e5e7eb;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    top: auto;
+  }
+
+  .container {
+    width: 100%;
+    position: relative;
+    left: 0;
+    padding-bottom: 90px;
+  }
+}
