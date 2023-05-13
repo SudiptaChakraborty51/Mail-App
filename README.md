@@ -12,4 +12,6 @@ Created with CodeSandbox
 ![image](https://github.com/SudiptaChakraborty51/Mail-App/assets/76644901/665e2261-e1a4-4f44-a021-fe1ad1b7c314)
 ## Trash Page
 ![image](https://github.com/SudiptaChakraborty51/Mail-App/assets/76644901/6a278f40-414f-4f37-ba8d-6a1be63e92c5)
+## Responsive flex layout
+![image](https://github.com/SudiptaChakraborty51/Mail-App/assets/76644901/ad60f038-e555-4abd-b2bf-58d79d57a365)
 
