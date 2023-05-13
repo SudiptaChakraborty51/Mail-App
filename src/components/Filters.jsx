@@ -12,6 +12,7 @@ export const Filters = () => {
           <input
             type="checkbox"
             name="filterMail"
+            checked={mailState.unread}
             onChange={() => dispatch({ type: "UNREAD" })}
           />
           Show unread mails
@@ -20,6 +21,7 @@ export const Filters = () => {
           <input
             type="checkbox"
             name="filterMail"
+            checked={mailState.starred}
             onChange={() => dispatch({ type: "STARRED" })}
           />
           Show starred mails
