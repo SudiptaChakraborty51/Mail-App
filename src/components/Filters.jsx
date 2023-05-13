@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { MailContext } from "../contexts/MailContext";
 
 export const Filters = () => {
-  const { dispatch } = useContext(MailContext);
+  const { mailState, dispatch } = useContext(MailContext);
 
   return (
     <>
